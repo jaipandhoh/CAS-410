@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #f6f6f2;
+  color: #222;
+}
+header {
+  background-color: #8faf7c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+header h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+nav a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: white;
+  transition: opacity 0.3s ease;
+}
+nav a:hover {
+  opacity: 0.7;
+}
+.hero {
+  background-color: #a3c9e2;
+  text-align: center;
+  padding: 5rem 2rem;
+}
+.hero h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.hero p {
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+.about {
+  background-color: #d9cdbf;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+.about h3 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.about p {
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+.cta {
+  text-align: center;
+  padding: 3rem 2rem;
+}
+.cta button {
+  background-color: #7c5c46;
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.cta button:hover {
+  background-color: #5c4435;
+  transform: scale(1.05);
+}
+@media (min-width: 600px) {
+  nav a {
+    font-size: 1rem;
+  }
+  .hero h2 {
+    font-size: 3rem;
+  }
+}
